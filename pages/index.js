@@ -65,6 +65,23 @@ export default function Home() {
         </p>
       </section>
 
+{/* WHAT HAPPENS AFTER APPROVAL */}
+<section style={{ marginTop: 50 }}>
+  <h2>What Happens After Approval</h2>
+
+  <ol style={{ lineHeight: "1.8", maxWidth: 700 }}>
+    <li>You receive your official <strong>Member ID</strong></li>
+    <li>You are added to the members’ communication channel</li>
+    <li>Savings plans and contribution instructions are shared</li>
+    <li>Your savings wallet is activated after first contribution</li>
+    <li>You gain access to cooperative updates and reports</li>
+  </ol>
+
+  <p style={{ fontStyle: "italic", marginTop: 15 }}>
+    All activities follow cooperative rules and are transparently recorded.
+  </p>
+</section>
+
       {/* WHO THIS IS FOR */}
       <section style={{ marginTop: 50 }}>
         <h2>Who This Is For</h2>
