@@ -64,8 +64,7 @@ export default function Home() {
           Registration is confirmed only after admin verification.
         </p>
       </section>
-
-{/* WHAT HAPPENS AFTER APPROVAL */}
+          {/* WHAT HAPPENS AFTER APPROVAL */}
 <section style={{ marginTop: 50 }}>
   <h2>What Happens After Approval</h2>
 
