@@ -24,7 +24,7 @@ export default function Home() {
       >
         Register via WhatsApp button to homepage
       </a>
-    </main><div style={{ marginTop: 40 }}>
+    <div style={{ marginTop: 40 }}>
         <h2>How Registration Works</h2>
 
         <ol style={{ fontSize: 16, lineHeight: "1.8" }}>
@@ -43,6 +43,7 @@ export default function Home() {
         <p style={{ marginTop: 20, fontStyle: "italic" }}>
           Registration is confirmed only after admin verification.
         </p>
-      </div>
-  );
-}
+    </div>
+</main>
+);
+} 
