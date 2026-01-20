@@ -68,8 +68,6 @@ export default function Home() {
           Membership is open to eligible individuals upon verification.
         </p>
       </section>
-
-    </main>
   );
 }
 <section style={{ marginTop: 50 }}>
