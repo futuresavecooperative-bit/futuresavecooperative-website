@@ -26,7 +26,7 @@ export default function Home() {
           fontWeight: "bold"
         }}
       >
-        Register via WhatsApp (Soft Launch)
+        Apply for Membership (via WhatsApp)
       </a>
 
       {/* TRUST POINTS */}
@@ -72,3 +72,34 @@ export default function Home() {
     </main>
   );
 }
+<section style={{ marginTop: 50 }}>
+  <h2>What We Do (and What We Don’t)</h2>
+
+  <ul style={{ lineHeight: "1.8", maxWidth: 700 }}>
+    <li>✔ We operate as a registered cooperative society</li>
+    <li>✔ Members save collectively and invest responsibly</li>
+    <li>✔ Returns are based on real cooperative activities</li>
+    <li>✔ All funds are managed with transparency and verification</li>
+
+    <li style={{ marginTop: 15 }}>✖ We are not a bank</li>
+    <li>✖ We do not promise fixed or instant returns</li>
+    <li>✖ We do not operate Ponzi or high-yield schemes</li>
+    <li>✖ Withdrawals follow cooperative rules</li>
+  </ul>
+
+  <p style={{ fontStyle: "italic", marginTop: 15 }}>
+    Future Save Cooperative prioritizes long-term financial stability over speculation.
+  </p>
+</section>
+<section style={{ marginTop: 50 }}>
+  <h2>Frequently Asked Questions</h2>
+
+  <p><strong>Is my money safe?</strong><br />
+  Funds are managed collectively and recorded transparently. No funds are accepted without verification.</p>
+
+  <p><strong>Can I withdraw anytime?</strong><br />
+  Withdrawals follow cooperative rules and timelines.</p>
+
+  <p><strong>Is this open to everyone?</strong><br />
+  Membership is approved after verification.</p>
+</section>
