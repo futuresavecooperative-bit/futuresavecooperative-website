@@ -24,6 +24,25 @@ export default function Home() {
       >
         Register via WhatsApp button to homepage
       </a>
-    </main>
+    </main><div style={{ marginTop: 40 }}>
+        <h2>How Registration Works</h2>
+
+        <ol style={{ fontSize: 16, lineHeight: "1.8" }}>
+          <li>
+            Click <strong>Register via WhatsApp</strong> to start a chat with our
+            official admin.
+          </li>
+          <li>
+            Send your full name, phone number, and preferred savings plan.
+          </li>
+          <li>
+            Receive your <strong>Member ID</strong> and onboarding instructions.
+          </li>
+        </ol>
+
+        <p style={{ marginTop: 20, fontStyle: "italic" }}>
+          Registration is confirmed only after admin verification.
+        </p>
+      </div>
   );
 }
