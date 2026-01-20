@@ -1,14 +1,16 @@
-export default function Home(const whatsappMessage = encodeURIComponent(
-  "Hello Future Save Cooperative,\n\n" +
-  "I would like to apply for membership.\n\n" +
-  "Full Name:\n" +
-  "Phone Number:\n" +
-  "Location:\n" +
-  "Preferred Savings Plan:\n\n" +
-  "Thank you."
-);
+export default function Home() {
+  const whatsappMessage = encodeURIComponent(
+    "Hello Future Save Cooperative,\n\n" +
+    "I would like to apply for membership.\n\n" +
+    "Full Name:\n" +
+    "Phone Number:\n" +
+    "Location:\n" +
+    "Preferred Savings Plan:\n\n" +
+    "Thank you."
+  );
 
-const whatsappLink = `https://wa.me/2347068967636?text=${whatsappMessage}`;) {
+  const whatsappLink = `https://wa.me/2347068967636?text=${whatsappMessage}`;
+
   return (
     <main style={{ padding: 40, fontFamily: "Arial" }}>
 
