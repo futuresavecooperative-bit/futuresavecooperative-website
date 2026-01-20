@@ -80,7 +80,26 @@ export default function Home() {
     All activities follow cooperative rules and are transparently recorded.
   </p>
 </section>
+{/* SAVINGS PLANS OVERVIEW */}
+<section style={{ marginTop: 50 }}>
+  <h2>Savings Plans (Overview)</h2>
 
+  <ul style={{ lineHeight: "1.8", maxWidth: 700 }}>
+    <li>
+      <strong>Thrift Savings:</strong> Regular member contributions for disciplined savings.
+    </li>
+    <li>
+      <strong>Premium Savings:</strong> Pooled contributions for cooperative trading and asset-backed activities.
+    </li>
+    <li>
+      <strong>Asset Savings:</strong> Long-term contributions toward cooperative-owned income assets.
+    </li>
+  </ul>
+
+  <p style={{ fontStyle: "italic", marginTop: 15 }}>
+    Participation details, timelines, and contribution terms are shared after membership approval.
+  </p>
+</section>
       {/* WHO THIS IS FOR */}
       <section style={{ marginTop: 50 }}>
         <h2>Who This Is For</h2>
