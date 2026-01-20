@@ -68,8 +68,7 @@ export default function Home() {
           Membership is open to eligible individuals upon verification.
         </p>
       </section>
-  );
-}
+            
 <section style={{ marginTop: 50 }}>
   <h2>What We Do (and What We Don’t)</h2>
 
