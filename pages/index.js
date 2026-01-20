@@ -64,6 +64,20 @@ export default function Home() {
         </p>
       </section>
 
-    </main>
+    {/* WHO THIS IS FOR */}
+<section style={{ marginTop: 50 }}>
+  <h2>Who This Is For</h2>
+
+  <ul style={{ fontSize: 16, lineHeight: "1.8", maxWidth: 700 }}>
+    <li>Individuals who want disciplined and structured savings</li>
+    <li>Business owners seeking cooperative-based financial growth</li>
+    <li>Professionals interested in asset-backed cooperative investments</li>
+    <li>Long-term thinkers (not quick-profit seekers)</li>
+  </ul>
+
+  <p style={{ marginTop: 15, fontStyle: "italic" }}>
+    Membership is open to eligible individuals upon verification.
+  </p>
+</section>
   );
         }
