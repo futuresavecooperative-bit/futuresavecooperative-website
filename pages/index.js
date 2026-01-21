@@ -165,7 +165,7 @@ export default function Home() {
   </p>
 
   <p style={{ fontSize: "12px", marginTop: "12px", opacity: "0.8" }}>
-    © {new Date().getFullYear()} Future Save Cooperative Society. All rights reserved.
+    © {new Date().getFullYear()} Future Save Multi-purpose Co-operative Society Limited. All rights reserved.
   </p>
 </footer>
 </main>
