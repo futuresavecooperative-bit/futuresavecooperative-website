@@ -169,8 +169,7 @@ export default function Home() {
   <p><strong>Is this open to everyone?</strong><br />
   Membership is approved after verification.</p>
 </section>
- <footer
-  style={{
+ <footer style={{
     marginTop: 60,
     paddingTop: 20,
     borderTop: "1px solid #e2e8f0",
