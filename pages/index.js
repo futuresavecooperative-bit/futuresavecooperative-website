@@ -15,7 +15,7 @@ export default function Home() {
     <main style={{ padding: 40, fontFamily: "Arial" }}>
 
       {/* HERO SECTION */}
-      <h1>Future Save Cooperative Society</h1>
+      <h1>Future Save Cooperative</h1>
       <p><strong>Secure savings. Cooperative growth. Sustainable wealth.</strong></p>
 
       <p style={{ maxWidth: 700 }}>
