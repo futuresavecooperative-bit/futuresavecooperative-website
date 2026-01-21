@@ -207,8 +207,7 @@ export default function Home() {
       © {new Date().getFullYear()} Future Save Cooperative.
       All rights reserved.
     </div>
-  </div>
-</footer>
+ </footer>
         </main>
   );
 }
