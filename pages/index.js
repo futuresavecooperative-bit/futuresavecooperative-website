@@ -169,7 +169,7 @@ export default function Home() {
   <p><strong>Is this open to everyone?</strong><br />
   Membership is approved after verification.</p>
 </section>
- <footer
+<footer
   style={{
     marginTop: 60,
     paddingTop: 20,
