@@ -169,27 +169,7 @@ export default function Home() {
   <p><strong>Is this open to everyone?</strong><br />
   Membership is approved after verification.</p>
 </section>
-      <footer style={{
-  backgroundColor: "#0f172a",
-  color: "#ffffff",
-  padding: "24px 16px",
-  marginTop: "40px",
-  textAlign: "center"
-}}>
-  <h3 style={{ fontWeight: "600", marginBottom: "8px" }}>
-    Future Save Multi-purpose Co-operative Society Limited
-  </h3>
-
-  <p style={{ fontSize: "14px", lineHeight: "1.6" }}>
-    Registered Cooperative Society <br />
-    RC No: 47061 <br />
-    49 Shell Road, by Salubi Junction, Sapele, Delta State
-  </p>
-
-  <p style={{ fontSize: "12px", marginTop: "12px", opacity: "0.8" }}>
-    © {new Date().getFullYear()} Future Save Multi-purpose Co-operative Society Limited. All rights reserved.
-  </p>
-</footer
+ <footer
   style={{
     marginTop: 60,
     paddingTop: 20,
@@ -200,7 +180,10 @@ export default function Home() {
   }}
 >
   <div style={{ maxWidth: 900, margin: "0 auto" }}>
-    <strong style={{ color: "#0f172a" }}>Future Save Cooperative</strong>
+    <strong style={{ color: "#0f172a" }}>
+      Future Save Cooperative
+    </strong>
+
     <div style={{ marginTop: 6 }}>
       Operated by{" "}
       <strong style={{ color: "#0f172a" }}>
@@ -209,15 +192,15 @@ export default function Home() {
     </div>
 
     <div style={{ marginTop: 6 }}>
-      Registered Co-operative Society (Reg. No: 47061) • 49 Shell Road, by Salubi
-      Junction, Sapele, Delta State
+      Registered Co-operative Society (Reg. No: 47061) • 49 Shell Road,
+      by Salubi Junction, Sapele, Delta State
     </div>
 
     <div style={{ marginTop: 10, fontSize: "0.85rem" }}>
       <em>
         Disclaimer: Membership contributions are recorded after verification.
-        Returns/dividends are not guaranteed and depend on cooperative performance
-        and approved terms.
+        Returns/dividends are not guaranteed and depend on cooperative
+        performance and approved terms.
       </em>
     </div>
 
