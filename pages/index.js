@@ -11,7 +11,6 @@ export default function Home() {
 
   // ✅ MUST use backticks here
   const whatsappLink = `https://wa.me/2347068967636?text=${whatsappMessage}`;
-
   return (
     <main style={{ padding: 40, fontFamily: "Arial" }}>
       {/* HERO SECTION */}
