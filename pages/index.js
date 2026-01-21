@@ -155,7 +155,7 @@ export default function Home() {
   textAlign: "center"
 }}>
   <h3 style={{ fontWeight: "600", marginBottom: "8px" }}>
-    Future Save Cooperative Society
+    Future Save Multi-purpose Co-operative Society Limited
   </h3>
 
   <p style={{ fontSize: "14px", lineHeight: "1.6" }}>
