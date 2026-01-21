@@ -189,6 +189,42 @@ export default function Home() {
   <p style={{ fontSize: "12px", marginTop: "12px", opacity: "0.8" }}>
     © {new Date().getFullYear()} Future Save Multi-purpose Co-operative Society Limited. All rights reserved.
   </p>
+</footer
+  style={{
+    marginTop: 60,
+    paddingTop: 20,
+    borderTop: "1px solid #e2e8f0",
+    fontSize: "0.9rem",
+    color: "#475569",
+    lineHeight: "1.7",
+  }}
+>
+  <div style={{ maxWidth: 900, margin: "0 auto" }}>
+    <strong style={{ color: "#0f172a" }}>Future Save Cooperative</strong>
+    <div style={{ marginTop: 6 }}>
+      Operated by{" "}
+      <strong style={{ color: "#0f172a" }}>
+        Future Save Multi-purpose Co-operative Society Limited
+      </strong>
+    </div>
+
+    <div style={{ marginTop: 6 }}>
+      Registered Co-operative Society (Reg. No: 47061) • 49 Shell Road, by Salubi
+      Junction, Sapele, Delta State
+    </div>
+
+    <div style={{ marginTop: 10, fontSize: "0.85rem" }}>
+      <em>
+        Disclaimer: Membership contributions are recorded after verification.
+        Returns/dividends are not guaranteed and depend on cooperative performance
+        and approved terms.
+      </em>
+    </div>
+
+    <div style={{ marginTop: 10 }}>
+      © {new Date().getFullYear()} Future Save Cooperative. All rights reserved.
+    </div>
+  </div>
 </footer>
 </main>
   );
