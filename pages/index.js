@@ -1,43 +1,65 @@
 export default function Home() {
   const whatsappMessage = encodeURIComponent(
     "Hello Future Save Cooperative,\n\n" +
-    "I would like to apply for membership.\n\n" +
-    "Full Name:\n" +
-    "Phone Number:\n" +
-    "Location:\n" +
-    "Preferred Savings Plan:\n\n" +
-    "Thank you."
+      "I would like to apply for membership.\n\n" +
+      "Full Name:\n" +
+      "Phone Number:\n" +
+      "Location:\n" +
+      "Preferred Savings Plan:\n\n" +
+      "Thank you."
   );
 
+  // ✅ MUST use backticks here
   const whatsappLink = `https://wa.me/2347068967636?text=${whatsappMessage}`;
 
   return (
     <main style={{ padding: 40, fontFamily: "Arial" }}>
-
       {/* HERO SECTION */}
-      <h1>Future Save Cooperative</h1>
-      <p><strong>Secure savings. Cooperative growth. Sustainable wealth.</strong></p>
+      <section style={{ textAlign: "center", padding: "64px 16px" }}>
+        <h1
+          style={{
+            fontSize: "2.8rem",
+            fontWeight: "700",
+            color: "#0f172a",
+          }}
+        >
+          Future Save Cooperative
+        </h1>
 
-      <p style={{ maxWidth: 700 }}>
-        A member-owned cooperative registered in Delta State, focused on disciplined
-        savings, asset-backed investments, and long-term financial empowerment.
-      </p>
+        <p
+          style={{
+            marginTop: "12px",
+            fontSize: "1.1rem",
+            color: "#475569",
+          }}
+        >
+          Structured savings. Cooperative growth. Sustainable future.
+        </p>
 
-      <a
-        href={whatsappLink}
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{
-          display: "inline-block",
-          marginTop: 20,
-          padding: "12px 24px",
-          backgroundColor: "#25D366",
-          color: "#fff",
-          textDecoration: "none",
-          borderRadius: 6,
-          fontWeight: "bold"
-        }}
-      >
+        <p
+          style={{
+            marginTop: "8px",
+            fontSize: "0.85rem",
+            color: "#64748b",
+          }}
+        >
+          Operated by{" "}
+          <strong>Future Save Multi-purpose Co-operative Society Limited</strong>
+        </p>
+
+        <a
+          href={whatsappLink}
+          style={{
+            display: "inline-block",
+            marginTop: "18px",
+            padding: "12px 18px",
+            backgroundColor: "#16a34a",
+            color: "white",
+            borderRadius: "8px",
+            textDecoration: "none",
+            fontWeight: "600",
+          }}
+        >
         Apply for Membership (via WhatsApp)
       </a>
 
