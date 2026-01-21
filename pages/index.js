@@ -147,6 +147,27 @@ export default function Home() {
   <p><strong>Is this open to everyone?</strong><br />
   Membership is approved after verification.</p>
 </section>
+      <footer style={{
+  backgroundColor: "#0f172a",
+  color: "#ffffff",
+  padding: "24px 16px",
+  marginTop: "40px",
+  textAlign: "center"
+}}>
+  <h3 style={{ fontWeight: "600", marginBottom: "8px" }}>
+    Future Save Cooperative Society
+  </h3>
+
+  <p style={{ fontSize: "14px", lineHeight: "1.6" }}>
+    Registered Cooperative Society <br />
+    RC No: 47061 <br />
+    49 Shell Road, by Salubi Junction, Sapele, Delta State
+  </p>
+
+  <p style={{ fontSize: "12px", marginTop: "12px", opacity: "0.8" }}>
+    © {new Date().getFullYear()} Future Save Cooperative Society. All rights reserved.
+  </p>
+</footer>
 </main>
   );
 }
