@@ -42,6 +42,11 @@ export default function Home() {
       >
         Apply for Membership (via WhatsApp)
       </a>
+          <p style={{ marginTop: 18 }}>
+  <a href="/dashboard" style={{ color: "#0f172a", fontWeight: "bold" }}>
+    Member Dashboard →
+  </a>
+</p>
 
       {/* TRUST POINTS */}
       <ul style={{ marginTop: 30, lineHeight: "1.8" }}>
